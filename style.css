@@ -1,0 +1,74 @@
+.rainbow-text {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+}
+.rainbow-text span:nth-child(1) { color: red; }
+.rainbow-text span:nth-child(2) { color: orange; }
+.rainbow-text span:nth-child(3) { color: yellow; }
+.rainbow-text span:nth-child(4) { color: green; }
+.rainbow-text span:nth-child(5) { color: blue; }
+.rainbow-text span:nth-child(6) { color: purple; }
+.rainbow-text span:nth-child(7) { color: pink; }
+.rainbow-text span:nth-child(8) { color: brown; }
+.rainbow-text span:nth-child(9) { color: teal; }
+.rainbow-text span:nth-child(10) { color: gray; }
+.rainbow-text span:nth-child(11) { color: violet; }
+.rainbow-text span:nth-child(12) { color: indigo; }
+.rainbow-text span:nth-child(13) { color: lime; }
+.rainbow-text span:nth-child(14) { color: cyan; }
+.rainbow-text span:nth-child(15) { color: magenta; }
+.rainbow-text span:nth-child(16) { color: gold; }
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+.cap {
+    width: 60px;
+    height: 25px;
+}
+.sleeve {
+    width: 220px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 20px double rgba(0, 0, 0, 0.75);
+}
+.cap,
+.sleeve {
+    display: inline-block;
+}
+.red, .green,.blue {
+    width: 400px; /* Duplicando a largura original (200px * 2) */
+    height: 50px;
+}
+.red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+.green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+.blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+}
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer img{
+    width: 40px;
+    height: 40px; 
+}
